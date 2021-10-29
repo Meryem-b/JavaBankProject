@@ -1,0 +1,154 @@
+Microsoft Windows [Version 10.0.19042.1237]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\z004du6d>pwd
+'pwd' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\z004du6d>cd /Users/z004du6d/eclipse-workspace/BankProject
+
+C:\Users\z004du6d\eclipse-workspace\BankProject>git init
+Reinitialized existing Git repository in C:/Users/z004du6d/eclipse-workspace/BankProject/.git/
+
+C:\Users\z004du6d\eclipse-workspace\BankProject>git add .
+
+C:\Users\z004du6d\eclipse-workspace\BankProject>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .classpath
+        new file:   .project
+        new file:   .settings/org.eclipse.core.resources.prefs
+        new file:   .settings/org.eclipse.jdt.core.prefs
+        new file:   bin/AtmBank/Atm.class
+        new file:   bin/AtmBank/BanaGoreOop.class
+        new file:   bin/AtmBank/Hesap.class
+        new file:   bin/AtmBank/Login.class
+        new file:   bin/BankData/Company$hisse.class
+        new file:   bin/BankData/Company.class
+        new file:   bin/BankData/CreditCard.class
+        new file:   bin/BankData/Human.class
+        new file:   bin/BankData/Landlord.class
+        new file:   bin/BankData/MainTest.class
+        new file:   bin/BankData/NewCustomer.class
+        new file:   bin/BankData/OldCompany.class
+        new file:   bin/BankData/Retired.class
+        new file:   bin/BankData/Student.class
+        new file:   bin/BankData/Worker.class
+        new file:   bin/BillTestMain/BillTest.class
+        new file:   bin/Employee/BankEmployee$BankCalisan.class
+        new file:   bin/Employee/BankEmployee.class
+        new file:   bin/Employee/GeneralManager.class
+        new file:   bin/Employee/Manager.class
+        new file:   bin/Employee/Test.class
+        new file:   bin/KykTestMain/Kyk.class
+        new file:   bin/RentTestMain/Transfer.class
+        new file:   bin/TaxCalculation/TaxMainTest.class
+        new file:   src/AtmBank/Atm.java
+        new file:   src/AtmBank/BanaGoreOop.java
+        new file:   src/AtmBank/Hesap.java
+        new file:   src/AtmBank/Login.java
+        new file:   src/BankData/Company.java
+        new file:   src/BankData/CreditCard.java
+        new file:   src/BankData/Human.java
+        new file:   src/BankData/Landlord.java
+        new file:   src/BankData/MainTest.java
+        new file:   src/BankData/NewCustomer.java
+        new file:   src/BankData/OldCompany.java
+        new file:   src/BankData/Retired.java
+        new file:   src/BankData/Student.java
+        new file:   src/BankData/Worker.java
+        new file:   src/BillTestMain/BillTest.java
+        new file:   src/Employee/BankEmployee.java
+        new file:   src/Employee/GeneralManager.java
+        new file:   src/Employee/Manager.java
+        new file:   src/Employee/Test.java
+        new file:   src/KykTestMain/Kyk.java
+        new file:   src/RentTestMain/Transfer.java
+        new file:   src/TaxCalculation/TaxMainTest.java
+
+
+C:\Users\z004du6d\eclipse-workspace\BankProject>git commit -m "First commit"
+[master (root-commit) 579e1ea] First commit
+ Committer: Bolat <meryem.bolat@siemens.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 50 files changed, 1207 insertions(+)
+ create mode 100644 .classpath
+ create mode 100644 .project
+ create mode 100644 .settings/org.eclipse.core.resources.prefs
+ create mode 100644 .settings/org.eclipse.jdt.core.prefs
+ create mode 100644 bin/AtmBank/Atm.class
+ create mode 100644 bin/AtmBank/BanaGoreOop.class
+ create mode 100644 bin/AtmBank/Hesap.class
+ create mode 100644 bin/AtmBank/Login.class
+ create mode 100644 bin/BankData/Company$hisse.class
+ create mode 100644 bin/BankData/Company.class
+ create mode 100644 bin/BankData/CreditCard.class
+ create mode 100644 bin/BankData/Human.class
+ create mode 100644 bin/BankData/Landlord.class
+ create mode 100644 bin/BankData/MainTest.class
+ create mode 100644 bin/BankData/NewCustomer.class
+ create mode 100644 bin/BankData/OldCompany.class
+ create mode 100644 bin/BankData/Retired.class
+ create mode 100644 bin/BankData/Student.class
+ create mode 100644 bin/BankData/Worker.class
+ create mode 100644 bin/BillTestMain/BillTest.class
+ create mode 100644 bin/Employee/BankEmployee$BankCalisan.class
+ create mode 100644 bin/Employee/BankEmployee.class
+ create mode 100644 bin/Employee/GeneralManager.class
+ create mode 100644 bin/Employee/Manager.class
+ create mode 100644 bin/Employee/Test.class
+ create mode 100644 bin/KykTestMain/Kyk.class
+ create mode 100644 bin/RentTestMain/Transfer.class
+ create mode 100644 bin/TaxCalculation/TaxMainTest.class
+ create mode 100644 src/AtmBank/Atm.java
+ create mode 100644 src/AtmBank/BanaGoreOop.java
+ create mode 100644 src/AtmBank/Hesap.java
+ create mode 100644 src/AtmBank/Login.java
+ create mode 100644 src/BankData/Company.java
+ create mode 100644 src/BankData/CreditCard.java
+ create mode 100644 src/BankData/Human.java
+ create mode 100644 src/BankData/Landlord.java
+ create mode 100644 src/BankData/MainTest.java
+ create mode 100644 src/BankData/NewCustomer.java
+ create mode 100644 src/BankData/OldCompany.java
+ create mode 100644 src/BankData/Retired.java
+ create mode 100644 src/BankData/Student.java
+ create mode 100644 src/BankData/Worker.java
+ create mode 100644 src/BillTestMain/BillTest.java
+ create mode 100644 src/Employee/BankEmployee.java
+ create mode 100644 src/Employee/GeneralManager.java
+ create mode 100644 src/Employee/Manager.java
+ create mode 100644 src/Employee/Test.java
+ create mode 100644 src/KykTestMain/Kyk.java
+ create mode 100644 src/RentTestMain/Transfer.java
+ create mode 100644 src/TaxCalculation/TaxMainTest.java
+
+C:\Users\z004du6d\eclipse-workspace\BankProject>git remote add origin https://github.com/meryem-s/JavaBankProject.git
+
+C:\Users\z004du6d\eclipse-workspace\BankProject>git push -u origin master
+Enumerating objects: 69, done.
+Counting objects: 100% (69/69), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (61/61), done.
+Writing objects: 100% (69/69), 35.92 KiB | 782.00 KiB/s, done.
+Total 69 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/meryem-s/JavaBankProject.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+C:\Users\z004du6d\eclipse-workspace\BankProject>
