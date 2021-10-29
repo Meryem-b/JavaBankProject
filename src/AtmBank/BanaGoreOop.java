@@ -5,7 +5,7 @@ package AtmBank;
 
 public class BanaGoreOop {
 
-	    public static void main(String[] args) {
+	    public static void main(String[] args){
 	        
 	        Atm atm = new Atm();
 	        Hesap hesap = new Hesap("1");
